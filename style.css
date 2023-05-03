@@ -1,0 +1,153 @@
+h2 {
+    border-left: 7px solid #ffe394;
+    background-color: #789aff;
+    text-align: center;
+}
+h3{
+    text-align:center;   
+}
+
+h1{
+    text-align: center;
+    font-size: 110px;
+}
+
+.subrayado{
+    border-bottom: 4px solid #ffe394;
+}
+body {
+    padding: 25px;
+    background-color: #00096a;
+}
+
+header{
+    height: 140px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: -8px;
+    background-color: #789aff;
+    margin-top: -25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #f0f0f0;
+    
+}
+
+nav {
+    margin-bottom:20px;
+    margin-left: 500px;
+    margin-right: 487px;
+    margin-top: 20px;
+}
+
+section{
+    background-color:#ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+img{
+    width: auto;
+    height: 650px;
+    max-height: 700px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+
+.row {margin: 0 100px;}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px 5px;
+}
+
+.card {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align:justify;
+    background-color: #ffffff;
+}
+
+footer{
+    padding: 3px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #789aff;
+    color:#f0f0f0;
+    height: 350px;
+}
+
+.mb-4{
+    margin-right: 1100px;
+}
+
+.secciones{
+    margin-left: 600px;
+    margin-right: 650px;
+    margin-top: 70px;
+}
+
+.container-fluid{
+    background-color: #789aff ;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.tabla,tr,th,td{
+    text-align: center;
+    border: 2px solid #2832e0;
+    padding: 5px;
+}
+
+th{
+    color: black;
+    background-color: #789aff;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+.subrayado2{
+    border-bottom: 6px solid #ffe394;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+ul.circulos{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol.enumeracion{
+    list-style-type:decimal;
+}
+
+.mapa{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.izquierda{
+    float: left; 
+    width: 50%; 
+    padding: 20px;
+}
+
+
+.derecha{
+    float: right; 
+    width: 50%; 
+    height: 100%; 
+    padding: 20px;
+}
+.logo{
+    height: 200px;
+}
