@@ -1,4 +1,4 @@
-h2 {
+h2{
     border-left: 7px solid #ffe394;
     background-color: #789aff;
     text-align: center;
@@ -15,10 +15,7 @@ h1{
 .subrayado{
     border-bottom: 4px solid #ffe394;
 }
-body {
-    padding: 25px;
-    background-color: #00096a;
-}
+
 
 header{
     height: 140px;
@@ -150,4 +147,44 @@ ol.enumeracion{
 }
 .logo{
     height: 200px;
+}
+
+.small {
+    font-size:10px;
+}
+
+.medium {
+    font-size: 17px;
+}
+
+.large {
+    font-size: 70px;
+}
+
+.negro{
+    padding: 25px;
+    background-color: #00096a;
+    color: black;
+    
+}
+
+.blanco {
+    padding: 25px;
+    background-color: #F7E6C4;
+    color: #606C5D;
+}
+
+:required{
+    border: 5px red
+}
+
+
+
+
+input:invalid{
+    border: 2px solid red
+}
+
+input:valid{
+    border: 2px black
 }
